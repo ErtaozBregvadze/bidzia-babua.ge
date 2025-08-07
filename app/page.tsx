@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Button mode="fill" title= "რეგიტრაცია" className={styles.main} />
+        <Button icon={true} mode="fill" title= "რეგიტრაცია" className={styles.main} />
         
       </main>
     </div>

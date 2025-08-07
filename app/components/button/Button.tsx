@@ -6,6 +6,7 @@ type Props = {
     className?: string;
     disabled?: boolean;
     mode?: "fill" | "outline";
+    icon: boolean
     /*onClick: Function;*/
 
 }
@@ -17,9 +18,8 @@ export default (props: Props) => {
 
 
     return (
-        <button disabled ={props.disabled}
-                className={classes.join(" ").trim()}>
-            {props.title}
+        <button disabled ={props.disabled} className={classes.join(" ").trim()}>
+            {props.icon && "X"} {props.title}
         </button>
     )
 }
