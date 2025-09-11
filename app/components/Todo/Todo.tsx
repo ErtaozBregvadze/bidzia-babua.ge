@@ -5,11 +5,11 @@ export default () => {
     const [task, setTask] = useState('')
     const [tasks, setTasks] = useState(['ვიძიუ', 'და კიდე რაღაცა'])
  
-    const onChange = (e) => {
+    const onChange = (e: any) => {
         setTask(e.target.value)
     }
     
-    const onAdd = (e) => {
+    const onAdd = (e: any) => {
         setTasks([...tasks, task])
         setTask('')
     }
