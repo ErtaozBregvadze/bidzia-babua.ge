@@ -5,7 +5,6 @@ import Button from "./components/button/Button";
 import Link from "next/link";
 import Counter from "./components/counter/counter";
 import TextInput from "./components/TextInput/TextInput";
-import Checkbox from "./components/checkbox/Checkbox";
 import Todo from "./components/Todo/Todo"
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
         
         <Counter />
         <TextInput />
-        <Checkbox />
         <Todo />
         
       </main>
