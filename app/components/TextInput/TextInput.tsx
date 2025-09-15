@@ -3,7 +3,7 @@ import { useState } from "react";
 export default () => {
 
     const [text, setText] = useState ('ერთაოზ');
-    const onChange = (e) => {
+    const onChange = (e: any) => {
         setText(e.target.value);
     }
 
